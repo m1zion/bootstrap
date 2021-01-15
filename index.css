@@ -1,0 +1,55 @@
+.text-platzi{
+    color: #97c93e !important;
+}
+#footer{
+    background: -webkit-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+}
+#footer a{
+    color: white;
+}
+
+#header img{
+    width: 85px;
+}
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover; /*Mantein aspect ratio*/
+    filter: grayscale(70%);
+}
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0,0,0.5);
+    color: wheat;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+.btn-platzi:hover{
+    background-color:hsl(82, 52%, 42%);
+}
+#speakers img{
+    height: 180px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+#placetime{
+    background-color: #343a40;
+    color: white;
+}
+#placetime img{
+    max-width: 100%;
+}
